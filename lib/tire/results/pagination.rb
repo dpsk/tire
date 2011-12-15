@@ -43,6 +43,7 @@ module Tire
 
       # Kaminari support
       #
+      alias :page         :paginate
       alias :limit_value  :per_page
       alias :total_count  :total_entries
       alias :num_pages    :total_pages
